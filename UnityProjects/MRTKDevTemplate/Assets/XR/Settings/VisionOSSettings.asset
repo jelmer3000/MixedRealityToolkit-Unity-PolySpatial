@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87fdc71f48fec416ba6b375d53aba3b8, type: 3}
   m_Name: VisionOSSettings
   m_EditorClassIdentifier: 
-  m_AppMode: 0
-  m_HandsTrackingUsageDescription: 
-  m_WorldSensingUsageDescription: 
+  m_AppMode: 1
+  m_HandsTrackingUsageDescription: For interacting with ze content
+  m_WorldSensingUsageDescription: To zense ze world
