@@ -1,3 +1,12 @@
+# Fork of Mixed Reality Toolkit for Unity, for supporting VisionOS via PolySpatial
+This is a Work in progress and should not be used for any production app. 
+Currently, NOTHING has changed yet, this is only a fork right now. 
+Feel free to contribute. 
+Goals:
+1 Support for Touch3D input, to interact with most interactables
+2 Support for MRTK shaders (as far as possible, given that eveyrthing has to go through ShaderGraph and get converted via MaterialX to render with Apple RealityKit...)
+3 Support for Hand tracking
+
 # Mixed Reality Toolkit for Unity
 
 ![Mixed Reality Toolkit](https://user-images.githubusercontent.com/13754172/122838732-89ea3400-d2ab-11eb-8c79-32dd84944989.png)
