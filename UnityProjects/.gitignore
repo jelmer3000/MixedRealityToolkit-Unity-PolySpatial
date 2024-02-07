@@ -86,5 +86,6 @@ crashlytics-build.properties
 */[Aa]ssets/[Oo]culus*
 */[Aa]ssets/[Ss]amples*
 */[Aa]ssets/TextMesh Pro*
+*/[Ss]amples/PolySpatial
 *.pfx
 *.pfx.meta
