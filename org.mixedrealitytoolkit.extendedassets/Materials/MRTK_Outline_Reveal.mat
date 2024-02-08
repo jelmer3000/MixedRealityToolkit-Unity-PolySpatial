@@ -8,31 +8,28 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: MRTK_Outline_Reveal
-  m_Shader: {fileID: 4800000, guid: c331f6c43a2ef0945864cb668f2653c9, type: 3}
-  m_ValidKeywords:
-  - _ADDITIVE_ON
-  - _DISABLE_ALBEDO_MAP
-  - _NEAR_LIGHT_FADE
-  - _NEAR_PLANE_FADE
-  - _RIM_LIGHT
-  - _USE_WORLD_SCALE
-  - _VERTEX_EXTRUSION
-  - _VERTEX_EXTRUSION_SMOOTH_NORMALS
-  m_InvalidKeywords:
-  - _SMOOTH_NORMALS
-  - _VERTEX_EXTRUSION_SMOOTH_NORMAL
+  m_Shader: {fileID: -6465566751694194690, guid: 4d37aaecc866c4235a6c3050b9148bc5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 1999
+  m_CustomRenderQueue: -1
   stringTagMap:
-    RenderType: Fade
+    DisableBatching: true
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
     - _ChannelMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: db758e0338c90477485d6964e052d71b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissiveMap:
+        m_Texture: {fileID: 2800000, guid: db758e0338c90477485d6964e052d71b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _IridescentSpectrumMap:
@@ -44,6 +41,18 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -68,10 +77,11 @@ Material:
     - _ClippingBorderWidth: 0.025
     - _ColorWriteMask: 15
     - _CullMode: 0
-    - _CustomMode: 2
+    - _CustomMode: 0
     - _Cutoff: 0.5
     - _DirectionalLight: 0
     - _DstBlend: 1
+    - _DstBlendAlpha: 1
     - _EdgeSmoothingMode: 0
     - _EdgeSmoothingValue: 0.002
     - _EnableChannelMap: 0
@@ -106,12 +116,15 @@ Material:
     - _Metallic: 0
     - _MipmapBias: -2
     - _Mode: 4
+    - _NPR: 0
     - _NearLightFade: 1
     - _NearPlaneFade: 1
     - _NormalMapScale: 1
     - _ProximityLight: 0
     - _ProximityLightSubtractive: 0
     - _ProximityLightTwoSided: 0
+    - _QueueControl: 0
+    - _QueueOffset: 0
     - _Reflections: 0
     - _Refraction: 0
     - _RefractiveIndex: 0
@@ -127,6 +140,7 @@ Material:
     - _SpecularHighlights: 0
     - _SphericalHarmonics: 0
     - _SrcBlend: 1
+    - _SrcBlendAlpha: 1
     - _Stencil: 0
     - _StencilComparison: 0
     - _StencilOperation: 0
@@ -137,9 +151,11 @@ Material:
     - _UseWorldScale: 1
     - _VertexColors: 0
     - _VertexExtrusion: 1
+    - _VertexExtrusionConstantWidth: 0
     - _VertexExtrusionSmoothNormals: 1
     - _VertexExtrusionValue: 0.02
     - _ZOffsetFactor: 0
+    - _ZOffsetFactorFloat: 0
     - _ZOffsetUnits: 0
     - _ZTest: 4
     - _ZWrite: 0
@@ -167,3 +183,16 @@ Material:
     - _RimColor: {r: 0, g: 0.5921569, b: 1, a: 1}
     - _RoundCornersRadius: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
   m_BuildTextureStacks: []
+--- !u!114 &1122584370748540384
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
