@@ -14,14 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isCustomProfile: 0
   loadedSubsystems:
+  - reference: MixedReality.Toolkit.Input.UnityHandsSubsystem, MixedReality.Toolkit.Input
   - reference: MixedReality.Toolkit.Speech.Windows.WindowsDictationSubsystem, MixedReality.Toolkit.Speech.Windows
-  - reference: MixedReality.Toolkit.Speech.Windows.WindowsKeywordRecognitionSubsystem,
-      MixedReality.Toolkit.Speech.Windows
-  - reference: MixedReality.Toolkit.Speech.Windows.WindowsTextToSpeechSubsystem,
-      MixedReality.Toolkit.Speech.Windows
   - reference: MixedReality.Toolkit.Accessibility.MRTKAccessibilitySubsystem, MixedReality.Toolkit.Accessibility
   - reference: MixedReality.Toolkit.Input.OpenXRHandsSubsystem, MixedReality.Toolkit.Input
-  - reference: MixedReality.Toolkit.Input.SyntheticHandsSubsystem, MixedReality.Toolkit.Input
   - reference: MixedReality.Toolkit.Input.MRTKHandsAggregatorSubsystem, MixedReality.Toolkit.Input
   subsystemConfigs:
     entries:
@@ -47,4 +43,3 @@ MonoBehaviour:
     - key:
         reference: MixedReality.Toolkit.Input.MRTKHandsAggregatorSubsystem, MixedReality.Toolkit.Input
       value: {fileID: 11400000, guid: b8da41358d218754494ea49599e7b0fb, type: 2}
-  <SpatializationMixer>k__BackingField: {fileID: 0}

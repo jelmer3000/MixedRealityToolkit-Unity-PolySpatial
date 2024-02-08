@@ -5090,37 +5090,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7781529056550460865, guid: c07c4bd04b45c014fad0e3cd30747f06, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1551252957}
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 7791286047433672956, guid: c07c4bd04b45c014fad0e3cd30747f06, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 1620275058381846878, guid: c07c4bd04b45c014fad0e3cd30747f06, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 373542711749969831, guid: c07c4bd04b45c014fad0e3cd30747f06, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 1365711180369608944, guid: c07c4bd04b45c014fad0e3cd30747f06, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 5299172227394764703, guid: c07c4bd04b45c014fad0e3cd30747f06, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 4653753136551006344, guid: c07c4bd04b45c014fad0e3cd30747f06, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 3142284408293352098, guid: c07c4bd04b45c014fad0e3cd30747f06, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 8930662638181297589, guid: c07c4bd04b45c014fad0e3cd30747f06, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 6575785689631065727, guid: c07c4bd04b45c014fad0e3cd30747f06, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 6395775040214023697, guid: c07c4bd04b45c014fad0e3cd30747f06, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c07c4bd04b45c014fad0e3cd30747f06, type: 3}
 --- !u!1 &782737665
 GameObject:
@@ -16652,13 +16622,41 @@ PrefabInstance:
       value: Increment
       objectReference: {fileID: 0}
     - target: {fileID: 3738767603136113390, guid: c9b1a111fa131cc48b6c4daedd47efe3, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3738767603136113390, guid: c9b1a111fa131cc48b6c4daedd47efe3, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3738767603136113390, guid: c9b1a111fa131cc48b6c4daedd47efe3, type: 3}
       propertyPath: onClicked.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MixedReality.Toolkit.Examples.Demos.ColorChanger, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3738767603136113390, guid: c9b1a111fa131cc48b6c4daedd47efe3, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 884765058}
+    - target: {fileID: 3738767603136113390, guid: c9b1a111fa131cc48b6c4daedd47efe3, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3738767603136113390, guid: c9b1a111fa131cc48b6c4daedd47efe3, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Increment
+      objectReference: {fileID: 0}
+    - target: {fileID: 3738767603136113390, guid: c9b1a111fa131cc48b6c4daedd47efe3, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: MixedReality.Toolkit.Examples.Demos.ColorChanger, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3738767603136113390, guid: c9b1a111fa131cc48b6c4daedd47efe3, type: 3}
       propertyPath: onClicked.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 3738767603136113390, guid: c9b1a111fa131cc48b6c4daedd47efe3, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 3738767603464604106, guid: c9b1a111fa131cc48b6c4daedd47efe3, type: 3}
       propertyPath: onClicked.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -16680,11 +16678,39 @@ PrefabInstance:
       value: Increment
       objectReference: {fileID: 0}
     - target: {fileID: 3738767603464604106, guid: c9b1a111fa131cc48b6c4daedd47efe3, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3738767603464604106, guid: c9b1a111fa131cc48b6c4daedd47efe3, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3738767603464604106, guid: c9b1a111fa131cc48b6c4daedd47efe3, type: 3}
       propertyPath: onClicked.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: MixedReality.Toolkit.Examples.Demos.ColorChanger, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3738767603464604106, guid: c9b1a111fa131cc48b6c4daedd47efe3, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 884765058}
+    - target: {fileID: 3738767603464604106, guid: c9b1a111fa131cc48b6c4daedd47efe3, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3738767603464604106, guid: c9b1a111fa131cc48b6c4daedd47efe3, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Increment
+      objectReference: {fileID: 0}
+    - target: {fileID: 3738767603464604106, guid: c9b1a111fa131cc48b6c4daedd47efe3, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MixedReality.Toolkit.Examples.Demos.ColorChanger, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3738767603464604106, guid: c9b1a111fa131cc48b6c4daedd47efe3, type: 3}
       propertyPath: onClicked.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3738767603464604106, guid: c9b1a111fa131cc48b6c4daedd47efe3, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3738767603707512081, guid: c9b1a111fa131cc48b6c4daedd47efe3, type: 3}
@@ -16708,11 +16734,39 @@ PrefabInstance:
       value: Increment
       objectReference: {fileID: 0}
     - target: {fileID: 3738767603707512081, guid: c9b1a111fa131cc48b6c4daedd47efe3, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3738767603707512081, guid: c9b1a111fa131cc48b6c4daedd47efe3, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3738767603707512081, guid: c9b1a111fa131cc48b6c4daedd47efe3, type: 3}
       propertyPath: onClicked.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: MixedReality.Toolkit.Examples.Demos.ColorChanger, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3738767603707512081, guid: c9b1a111fa131cc48b6c4daedd47efe3, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 884765058}
+    - target: {fileID: 3738767603707512081, guid: c9b1a111fa131cc48b6c4daedd47efe3, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3738767603707512081, guid: c9b1a111fa131cc48b6c4daedd47efe3, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Increment
+      objectReference: {fileID: 0}
+    - target: {fileID: 3738767603707512081, guid: c9b1a111fa131cc48b6c4daedd47efe3, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MixedReality.Toolkit.Examples.Demos.ColorChanger, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3738767603707512081, guid: c9b1a111fa131cc48b6c4daedd47efe3, type: 3}
       propertyPath: onClicked.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3738767603707512081, guid: c9b1a111fa131cc48b6c4daedd47efe3, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3738767604241656465, guid: c9b1a111fa131cc48b6c4daedd47efe3, type: 3}
@@ -16736,11 +16790,39 @@ PrefabInstance:
       value: Increment
       objectReference: {fileID: 0}
     - target: {fileID: 3738767604241656465, guid: c9b1a111fa131cc48b6c4daedd47efe3, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3738767604241656465, guid: c9b1a111fa131cc48b6c4daedd47efe3, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3738767604241656465, guid: c9b1a111fa131cc48b6c4daedd47efe3, type: 3}
       propertyPath: onClicked.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: MixedReality.Toolkit.Examples.Demos.ColorChanger, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3738767604241656465, guid: c9b1a111fa131cc48b6c4daedd47efe3, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 884765058}
+    - target: {fileID: 3738767604241656465, guid: c9b1a111fa131cc48b6c4daedd47efe3, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3738767604241656465, guid: c9b1a111fa131cc48b6c4daedd47efe3, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Increment
+      objectReference: {fileID: 0}
+    - target: {fileID: 3738767604241656465, guid: c9b1a111fa131cc48b6c4daedd47efe3, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MixedReality.Toolkit.Examples.Demos.ColorChanger, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3738767604241656465, guid: c9b1a111fa131cc48b6c4daedd47efe3, type: 3}
       propertyPath: onClicked.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3738767604241656465, guid: c9b1a111fa131cc48b6c4daedd47efe3, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3969343301381823962, guid: c9b1a111fa131cc48b6c4daedd47efe3, type: 3}
@@ -20986,6 +21068,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 542792278498840201, guid: aa94f0fa662d8bd4e84361cc9f0d065a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a3f5099d15cbe4c74b160cc2af3df3a4, type: 2}
     - target: {fileID: 8771091787928289351, guid: aa94f0fa662d8bd4e84361cc9f0d065a, type: 3}
       propertyPath: m_Name
       value: MRTK_Logo
