@@ -1,3 +1,4 @@
+![mrtk3-on-visionos](https://github.com/jelmer3000/MixedRealityToolkit-Unity-PolySpatial/assets/44555765/7e2190c1-b7ee-4c72-bdbb-b68b0bc78259)
 # Fork of Mixed Reality Toolkit for Unity, for supporting VisionOS via PolySpatial
 This is a Work in progress and should not be used for any production app. 
 Currently, NOTHING has changed yet, this is only a fork right now. 
