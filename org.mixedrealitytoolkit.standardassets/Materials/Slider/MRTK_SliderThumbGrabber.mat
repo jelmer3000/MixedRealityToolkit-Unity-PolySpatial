@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3999840772588143704
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -8,20 +21,18 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: MRTK_SliderThumbGrabber
-  m_Shader: {fileID: 4800000, guid: 779835e0a5652024fb34a171d6dd6e92, type: 3}
-  m_ValidKeywords:
-  - _FRESNEL_ENABLED_
-  - _IRIDESCENCE_ENABLED_
-  - _SKY_ENABLED_
-  m_InvalidKeywords:
-  - _BLOB_ENABLE_2_
-  - _DECAL_FRONT_ONLY__ON
+  m_Shader: {fileID: -6465566751694194690, guid: 4d37aaecc866c4235a6c3050b9148bc5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -34,7 +45,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ChannelMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: db758e0338c90477485d6964e052d71b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Decal_:
@@ -55,6 +66,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissiveMap:
+        m_Texture: {fileID: 2800000, guid: db758e0338c90477485d6964e052d71b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Indirect_Environment_:
@@ -109,6 +124,18 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
     - Use_Global_Left_Index: 0
@@ -137,6 +164,10 @@ Material:
     - _Blob_Near_Size_2_: 0.01
     - _Blob_Pulse_: 0
     - _Blob_Pulse_2_: 0
+    - _BlurBorderIntensity: 0
+    - _BlurMode: 0
+    - _BlurTextureIntensity: 0
+    - _BorderColorMode: 0
     - _BorderLight: 0
     - _BorderLightOpaque: 0
     - _BorderLightOpaqueAlpha: 1
@@ -160,6 +191,8 @@ Material:
     - _DetailNormalMapScale: 1
     - _DirectionalLight: 1
     - _DstBlend: 0
+    - _DstBlendAlpha: 0
+    - _EdgeSmoothingMode: 0
     - _EdgeSmoothingValue: 0
     - _Edge_Reflect_: 0.09
     - _Edge_Width_: 0.04
@@ -169,12 +202,15 @@ Material:
     - _EnableLocalSpaceTriplanarMapping: 0
     - _EnableNormalMap: 0
     - _EnableProximityLightColorOverride: 0
+    - _EnableSSAA: 0
+    - _EnableStencil: 0
     - _EnableTriplanarMapping: 0
     - _Enable_Fade_: 1
     - _Env_Enable_: 0
     - _EnvironmentColorIntensity: 0.603
     - _EnvironmentColorThreshold: 0.55
     - _EnvironmentColoring: 1
+    - _Fade: 0
     - _FadeBeginDistance: 0.85
     - _FadeCompleteDistance: 0.5
     - _FadeMinValue: 0
@@ -188,6 +224,8 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _GradientAngle: 0
+    - _GradientMode: 0
     - _Highlight_Width_: 1
     - _Horizon_Power_: 1
     - _HoverLight: 0
@@ -210,7 +248,9 @@ Material:
     - _Margin_: 0.005
     - _Metallic: 0
     - _Min_Fuzz_: 0.001
+    - _MipmapBias: 0
     - _Mode: 0
+    - _NPR: 0
     - _NearLightFade: 0
     - _NearPlaneFade: 0
     - _NormalMapScale: 1
@@ -224,6 +264,8 @@ Material:
     - _Proximity_Far_Distance_: 0.16
     - _Proximity_Max_Intensity_: 0.45
     - _Proximity_Near_Radius_: 1.5
+    - _QueueControl: 0
+    - _QueueOffset: 0
     - _Radius_: 0.16
     - _Radius_Bottom_Left_: 1
     - _Radius_Bottom_Right_: 1
@@ -250,6 +292,7 @@ Material:
     - _RoundCornerMargin: 0.0344
     - _RoundCornerRadius: 0.5
     - _RoundCorners: 1
+    - _RoundCornersHideInterior: 0
     - _SSS_Distance_: 0.003
     - _Saturation_Shift_: 0
     - _Selected_: 0
@@ -270,10 +313,13 @@ Material:
     - _Specular_: 0
     - _SphericalHarmonics: 1
     - _SrcBlend: 1
+    - _SrcBlendAlpha: 0
     - _Stencil: 0
     - _StencilComparison: 0
     - _StencilOperation: 0
+    - _StencilReadMask: 0
     - _StencilReference: 0
+    - _StencilWriteMask: 0
     - _Subsurface_: 0.31
     - _Sun_Intensity_: 0.707
     - _Sun_Phi_: 0.775
@@ -281,13 +327,16 @@ Material:
     - _Texture_Enable_: 0
     - _TriplanarMappingBlendSharpness: 4
     - _UVSec: 0
+    - _UseWorldScale: 0
     - _Value_Shift_: 0
     - _VertexColors: 0
     - _VertexExtrusion: 0
+    - _VertexExtrusionConstantWidth: 0
     - _VertexExtrusionSmoothNormals: 0
     - _VertexExtrusionValue: 0
     - _Width_: 0.02
     - _ZOffsetFactor: 0
+    - _ZOffsetFactorFloat: 0
     - _ZOffsetUnits: 0
     - _ZTest: 4
     - _ZWrite: 1
@@ -297,10 +346,12 @@ Material:
     - _Base_Color_: {r: 0.98039216, g: 0.98039216, b: 0.98039216, a: 1}
     - _Blob_Position_: {r: 0, g: 0, b: 0.1, a: 1}
     - _Blob_Position_2_: {r: 0.2, g: 0, b: 0.1, a: 1}
+    - _BlurBackgroundRect: {r: 0, g: 0, b: 0, a: 0}
+    - _BorderColor: {r: 0, g: 0, b: 0, a: 0}
     - _Box_Center_: {r: 0, g: 0, b: 0, a: 1}
     - _Box_Size_: {r: 1, g: 1, b: 0.1, a: 1}
     - _ClippingBorderColor: {r: 1, g: 0.2, b: 0, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.14509805, g: 0.47058827, b: 0.9490197, a: 1}
     - _Decal_Scale_XY_: {r: 1.5, g: 1.5, b: 0, a: 0}
     - _Edge_Color_: {r: 0.592157, g: 0.592157, b: 0.592157, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
@@ -308,6 +359,13 @@ Material:
     - _EnvironmentColorX: {r: 1, g: 0, b: 0, a: 1}
     - _EnvironmentColorY: {r: 0, g: 1, b: 0, a: 1}
     - _EnvironmentColorZ: {r: 0, g: 0, b: 1, a: 1}
+    - _GradientAlpha: {r: 0, g: 0, b: 0, a: 0}
+    - _GradientAlphaTime: {r: 0, g: 0, b: 0, a: 0}
+    - _GradientColor0: {r: 0, g: 0, b: 0, a: 0}
+    - _GradientColor1: {r: 0, g: 0, b: 0, a: 0}
+    - _GradientColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _GradientColor3: {r: 0, g: 0, b: 0, a: 0}
+    - _GradientColor4: {r: 0, g: 0, b: 0, a: 0}
     - _Ground_Color_: {r: 0, g: 0.2553631, b: 0.9811321, a: 1}
     - _Highlight_Color_: {r: 1, g: 1, b: 1, a: 1}
     - _Highlight_Transform_: {r: 1, g: 1, b: 0, a: 0}
