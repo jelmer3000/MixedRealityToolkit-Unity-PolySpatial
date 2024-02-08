@@ -1,7 +1,7 @@
 
 # Fork of Mixed Reality Toolkit for Unity, for supporting VisionOS via PolySpatial
 This is an experiment and should not be used for any production app. 
-This work is sponsored by [Holocare](https://www.holocare.com)
+This work is sponsored by [HoloCare](https://www.holocare.com)
 
 ### Goals
 * Support for Touch3D input, to interact with most interactables
