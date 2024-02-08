@@ -1,12 +1,18 @@
-![mrtk3-on-visionos](https://github.com/jelmer3000/MixedRealityToolkit-Unity-PolySpatial/assets/44555765/7e2190c1-b7ee-4c72-bdbb-b68b0bc78259)
+
 # Fork of Mixed Reality Toolkit for Unity, for supporting VisionOS via PolySpatial
 This is a Work in progress and should not be used for any production app. 
-Currently, NOTHING has changed yet, this is only a fork right now. 
-Feel free to contribute. 
-Goals:
+
+### Goals
 * Support for Touch3D input, to interact with most interactables
 * Support for MRTK shaders (as far as possible, given that eveyrthing has to go through ShaderGraph and get converted via MaterialX to render with Apple RealityKit...)
 * Support for Hand tracking
+
+### Status
+* Simple input works, e.g. click on buttons, drag objects around, play the piano
+* The most important shaders have been rebuilt in shader graph, with properties in tact, so that materials can swap shader with colors, textures and other settings preserved. HOWEVER, most advanced features are not implemented in shader graph. Feel free to contribute by improving the shader graphs. It would be especially nice if the canvas shader would support adjustment of rounded corners.
+* No hand tracking has been tested as I don't have a vision pro yet.
+
+![mrtk3-on-visionos](https://github.com/jelmer3000/MixedRealityToolkit-Unity-PolySpatial/assets/44555765/7e2190c1-b7ee-4c72-bdbb-b68b0bc78259)
 
 ## Mixed Reality Toolkit for Unity
 
