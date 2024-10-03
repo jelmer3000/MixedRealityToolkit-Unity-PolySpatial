@@ -1,5 +1,7 @@
 
 # Fork of Mixed Reality Toolkit for Unity, for supporting VisionOS via PolySpatial
+#I don't recommend using this repo any more. I would advice using Fully immersive mode with pass-through, available from VisionOS2. That way, shaders don't need other be rebuilt. "
+
 This is an experiment and should not be used for any production app. 
 This work is sponsored by [HoloCare](https://www.holocare.com)
 
